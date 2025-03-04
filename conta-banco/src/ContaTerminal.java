@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 import javax.swing.plaf.basic.BasicBorders.MarginBorder;
 
 public class ContaTerminal {
@@ -11,9 +13,12 @@ public class ContaTerminal {
 
         //Exibir a mensagem da conta criada
 
-        int numero = 1021
-        String agencia = 067-8
-        String Nome = Mario
+        Scanner scanner = new Scanner(System.in);
+        int usuário = 1021 = scanner.nextInt();
+        System.out.printIn("Conta criada com sucesso! Número da conta:" + 1021);
+        System.out.printIn("Digite o valor do depósito inicial:");
+
+    
 
     }
 }
